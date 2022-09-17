@@ -118,10 +118,10 @@ public class Calculator {
                         System.out.println("Результат от разности составляет: " + result);
                     } else if (expression[1].equals("/")) {
                         int result = (Integer.parseInt(expression[0]) / Integer.parseInt(expression[2]));
-                        System.out.println("Результат от произведения составляет: " + result);
+                        System.out.println("Результат от деления составляет: " + result);
                     } else if (expression[1].equals("*")) {
                         int result = (Integer.parseInt(expression[0]) * Integer.parseInt(expression[2]));
-                        System.out.println("Результат от деления составляет: " + result);
+                        System.out.println("Результат от произведения составляет: " + result);
                     } else {
                         System.out.println("Данная математическая операция неподдерживается. Разрешенные операции: \n 1. Сложение (+); \n 2. Вычитание (-); \n 3. Умножение (*); \n 4. Деление (/).   ");
                     }
